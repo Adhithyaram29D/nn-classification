@@ -213,15 +213,14 @@ print(le.inverse_transform(x_single_prediction))
 
 
 ### Classification Report
-![Screenshot 2024-03-06 200739](https://github.com/Adhithyaram29D/nn-classification/assets/119393540/1e32082e-499d-4981-a652-1131e42d430a)
-
+<img src="https://github.com/Adhithyaram29D/nn-classification/assets/119393540/1e32082e-499d-4981-a652-1131e42d430a" width="400">
 
 ### Confusion Matrix
 ![image](https://github.com/Adhithyaram29D/nn-classification/assets/119393540/d8c3692b-8733-4d3a-b6cd-4019c38a8643)
 
 
 ### New Sample Data Prediction
-![Screenshot 2024-03-06 200943](https://github.com/Adhithyaram29D/nn-classification/assets/119393540/02b0fd9c-e37b-4af9-81d8-497d36e15f2e)
+<img src="https://github.com/Adhithyaram29D/nn-classification/assets/119393540/02b0fd9c-e37b-4af9-81d8-497d36e15f2e" width="400">
 
 ## RESULT
 Thus a neural network classification model is developed for the given dataset.
