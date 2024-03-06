@@ -13,8 +13,8 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
+![image](https://github.com/Adhithyaram29D/nn-classification/assets/119393540/6e975026-494b-4bd9-91f5-000848d11127)
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 
@@ -23,17 +23,6 @@ Import the necessary packages & modules
 
 ### STEP 2:
 Load and clean the customer data, handling missing values.
-
-
-Data Visualization:
-
-Data Scaling:
-
-Model Building:
-
-Model Training:
-
-Model Evaluation and Saving:
 
 ### STEP 3:
 Use OrdinalEncoder and LabelEncoder to encode categorical features.
@@ -156,9 +145,9 @@ X_test_scaled[:,2] = scaler_age.transform(X_test[:,2].reshape(-1,1)).reshape(-1)
 
 # Creating the model
 ai_brain = Sequential([
-  Dense(6,input_shape=(8,)),
-  Dense(6,activation='relu'),
-  Dense(6,activation='relu'),
+  Dense(4,input_shape=(8,)),
+  Dense(8,activation='relu'),
+  Dense(8,activation='relu'),
   Dense(4,activation='softmax'),
 ])
 
